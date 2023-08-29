@@ -27,7 +27,7 @@ graph TB
 
 Supports local models Llama, ChatGLM, Baichuan, and OpenAI API.
 
-If using a local model, modify MODEL_PATH to the Hugging Face model name or the local cache directory in the `.env` file.
+If using a local model, modify MODEL_PATH to the huggingface model name or the local cache directory in the `.env` file.
 
 If using OpenAI API, modify OPENAI_API_TOKEN and OPENAI_MODEL_NAME in the `.env` file.
 
@@ -38,6 +38,6 @@ Model accuracy and inference parameters are also configured in the `.env` file. 
 Loading medical record data from FILE_PATH as an example, and parameter lang can be "en" or "zh":
 ```
 cd src
-python cli.py --file_path=FILE_PATH
+python cli.py --file_path=FILE_PATH --lang=en
 ```
 The running logs are saved in `log/*.log`, and the consultation report results are saved in `report/*.txt`.
