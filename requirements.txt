@@ -1,0 +1,8 @@
+cpm_kernels==1.0.11
+fire==0.4.0
+langchain==0.0.153
+python-dotenv==1.0.0
+sentencepiece==0.1.96
+torch==2.0.1
+transformers==4.29.1
+
