@@ -5,7 +5,7 @@
 
 This project attempts to use the approach of the LLM agent to solve complex reasoning problems in the clinical field. Taking the consultation scenario as an example, it theoretically supports other clinical decision support issues such as differential diagnosis, nursing care plan development, and risk assessment.
 
-### How it works
+## How it works
 
 ```mermaid
 graph TB
@@ -21,9 +21,9 @@ graph TB
     H(Summarize medical records) --> J(Generate consultation report)
 ```
 
-### How to use
+## How to use
 
-#### Configuration
+### Configuration
 
 Supports local models Llama, ChatGLM, Baichuan, and OpenAI API.
 
@@ -33,7 +33,7 @@ If using OpenAI API, modify OPENAI_API_TOKEN and OPENAI_MODEL_NAME in the `.env`
 
 Model accuracy and inference parameters are also configured in the `.env` file. Local model loading accuracy supports full precision, float16, and int8.
 
-#### Running
+### Running
 
 Loading medical record data from FILE_PATH as an example, and parameter lang can be "en" or "zh":
 ```
