@@ -1,7 +1,7 @@
 # ThreeSensei
-Leverage large language model to conduct clinical consultation
 
 中文 | [English](README.md)
+
 
 这个项目尝试利用LLM agent的思路解决临床领域的复杂推理问题，以会诊场景为例，理论上也可支持鉴别诊断、护理计划制定、风险评估等其他临床决策支持问题。
 
