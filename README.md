@@ -1,7 +1,7 @@
 # ThreeSensei
-Leverage large language model to conduct clinical consultation
 
 [中文](README_zh.md) | English
+
 
 This project attempts to use the approach of the LLM agent to solve complex reasoning problems in the clinical field. Taking the consultation scenario as an example, it theoretically supports other clinical decision support issues such as differential diagnosis, nursing care plan development, and risk assessment.
 
